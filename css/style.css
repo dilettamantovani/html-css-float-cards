@@ -68,6 +68,10 @@
     color: rgb(124, 234, 255);
 }
 
+.email:hover {
+    color: #E53170;
+}
+
         /* CARDS SPECIFIC */
 .marco, .marta {
     margin: 18px 12px 25px 0;
