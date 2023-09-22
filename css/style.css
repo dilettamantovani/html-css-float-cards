@@ -8,10 +8,23 @@
 .container {
     width: 80%;
     margin: auto;
+    background-color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .title {
     text-align: center;
+}
+
+.title h1 {
+    color: #E53170;
+    font-size: xxx-large;
+    font-weight: 900;
+    margin: revert;
+}
+
+.title p {
+    font-weight: 500;
 }
 
 .col {
@@ -20,9 +33,41 @@
 }
 
 .card {
-    background-color: violet;
+    background-color: #0F0E17;
+    height: 100px;
+    margin: 18px;
 }
 
+.marco, .marta {
+    margin: 18px 12px 25px 0;
+}
+
+.laura, .roberto {
+    margin: 18px 12px 25px 12px;
+}
+
+.giorgio, .daniela {
+    margin: 18px 0 25px 12px; 
+}
+
+.card img {
+    width: 100px;
+}
+
+.card-text {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+    vertical-align: top;
+}
+
+.card-text h3, p {
+    margin-bottom: 9px;
+}
+
+.card-text h3 {
+    font-weight: 700;
+}
 
 
 
