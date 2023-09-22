@@ -1,4 +1,4 @@
-/*  */
+/* page generic */
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +12,18 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+/* ELEMENT GENERIC */
 .title {
     text-align: center;
 }
 
+.col {
+    float: left;
+    width: calc(100% / 3);
+}
+
+
+/* ELEMENT SPECIFIC */
 .title h1 {
     color: #E53170;
     font-size: xxx-large;
@@ -29,27 +37,11 @@
     margin: 50px 0 20px;
 }
 
-.col {
-    float: left;
-    width: calc(100% / 3);
-}
-
+        /* CARDS GENERIC */
 .card {
     background-color: #0F0E17;
     height: 100px;
     margin: 18px;
-}
-
-.marco, .marta {
-    margin: 18px 12px 25px 0;
-}
-
-.laura, .roberto {
-    margin: 18px 12px 25px 12px;
-}
-
-.giorgio, .daniela {
-    margin: 18px 0 25px 12px; 
 }
 
 .card img {
@@ -69,6 +61,24 @@
 
 .card-text h3 {
     font-weight: 700;
+}
+
+.email {
+    text-decoration: none;
+    color: rgb(124, 234, 255);
+}
+
+        /* CARDS SPECIFIC */
+.marco, .marta {
+    margin: 18px 12px 25px 0;
+}
+
+.laura, .roberto {
+    margin: 18px 12px 25px 12px;
+}
+
+.giorgio, .daniela {
+    margin: 18px 0 25px 12px; 
 }
 
 
